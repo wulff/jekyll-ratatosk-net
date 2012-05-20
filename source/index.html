@@ -1,0 +1,57 @@
+---
+layout: default
+title: Ratatosk
+---
+
+<div id="home">
+<!--
+  <h2>Blog</h2>
+  <ul class="posts">
+    {% for post in site.categories.blog limit:10 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+-->
+  <h2>Lær Drupal</h2>
+  <ul class="posts">
+    <!-- TODO: if page.url contains 'learn/drupal' -->
+    {% for post in site.categories.learn reversed %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h2>Tutorials</h2>
+  <ul class="posts">
+    {% for post in site.categories.tutorials %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> &ndash; {{ post.teaser }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Drupal</h2>
+
+  <h3>Danish translation</h3>
+  <p>
+    I initiated and currently maintain the Danish translation of the open source
+    content management system Drupal.
+  </p>
+  <p>
+    Take a look at the <a href="/drupal/l10n/status.html">current status</a> of the translation effort (in Danish).
+  </p>
+
+  <h3>Drupal modules</h3>
+  <ul>
+    <li>Admin Language – Use a different language on the admin pages.</li>
+    <li>Devel Demo – A companion module to my Debugging Drupal guide.</li>
+    <li>Forced Term – Force all content submitted by a user to be associated with a term from a specific taxonomy.</li>
+    <li>Micropayments – Accept micropayments for node access or during checkout in übercart.</li>
+    <li>Views Tagger – Quickly add tags to a group of images or other content.</li>
+  </ul>
+</div>
+
+<!--
+Psyke.org
+
+A non-profit site collecting information on self injury. Has a big collection of personal stories, and a very active forum community.
+Drupal
+Danish Translation of Drupal
+-->
