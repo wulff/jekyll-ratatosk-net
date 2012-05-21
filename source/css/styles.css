@@ -113,7 +113,6 @@ header {
 
 header h1 {
   height: 2em;
-  margin: 0 0 2em 0;
   padding: 0;
 }
 
@@ -261,6 +260,7 @@ header h1 {
   background: url("img/ratatosk.png") no-repeat scroll left top transparent;
   text-indent: -9999px;
   width: 360px;
+  margin-bottom: 2em;
 }
 
 footer a,

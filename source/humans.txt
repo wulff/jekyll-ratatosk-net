@@ -1,42 +1,14 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
+---
+---
 
-/* TEAM */
-  Chief Squirrel: Morten Wulff
-  Site: www.ratatosk.net
-  Twitter: nidhug
-  Location: Copenhagen, Denmark
+TEAM
 
-/* THANKS */
-  Names (& URL):
+Project lead: Morten Wulff
+Site: http://ratatosk.net/
+Twitter: @nidhug
+Location: Copenhagen, Denmark
 
-/* SITE */
-  Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
+SITE
 
-
-
-                               -o/-
-                               +oo//-
-                              :ooo+//:
-                             -ooooo///-
-                             /oooooo//:
-                            :ooooooo+//-
-                           -+oooooooo///-
-           -://////////////+oooooooooo++////////////::
-            :+ooooooooooooooooooooooooooooooooooooo+:::-
-              -/+ooooooooooooooooooooooooooooooo+/::////:-
-                -:+oooooooooooooooooooooooooooo/::///////:-
-                  --/+ooooooooooooooooooooo+::://////:-
-                     -:+ooooooooooooooooo+:://////:--
-                       /ooooooooooooooooo+//////:-
-                      -ooooooooooooooooooo////-
-                      /ooooooooo+oooooooooo//:
-                     :ooooooo+/::/+oooooooo+//-
-                    -oooooo/::///////+oooooo///-
-                    /ooo+::://////:---:/+oooo//:
-                   -o+/::///////:-      -:/+o+//-
-                   :-:///////:-            -:/://
-                     -////:-                 --//:
-                       --                       -:
+Last update: {{ site.time | date_to_long_string }}
+Software: TextMate, Jekyll, Perl, Git
